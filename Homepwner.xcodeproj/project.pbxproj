@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661289F61F148DF20066F465 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661289F51F148DF20066F465 /* ItemCell.swift */; };
+		661289F81F15DDC10066F465 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661289F71F15DDC10066F465 /* DetailViewController.swift */; };
+		661289FA1F1738F10066F465 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661289F91F1738F10066F465 /* CustomTextField.swift */; };
+		661289FC1F187A8B0066F465 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661289FB1F187A8B0066F465 /* DatePickerViewController.swift */; };
+		661289FE1F19CC010066F465 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661289FD1F19CC010066F465 /* ImageStore.swift */; };
 		6699BA7E1F020B6100BCCAE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699BA7D1F020B6100BCCAE9 /* AppDelegate.swift */; };
-		6699BA801F020B6100BCCAE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699BA7F1F020B6100BCCAE9 /* ViewController.swift */; };
 		6699BA831F020B6100BCCAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6699BA811F020B6100BCCAE9 /* Main.storyboard */; };
 		6699BA851F020B6100BCCAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6699BA841F020B6100BCCAE9 /* Assets.xcassets */; };
 		6699BA881F020B6100BCCAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6699BA861F020B6100BCCAE9 /* LaunchScreen.storyboard */; };
 		6699BA931F020B6100BCCAE9 /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699BA921F020B6100BCCAE9 /* HomepwnerTests.swift */; };
 		6699BA9E1F020B6100BCCAE9 /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699BA9D1F020B6100BCCAE9 /* HomepwnerUITests.swift */; };
+		6699BAAC1F020C4B00BCCAE9 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699BAAB1F020C4B00BCCAE9 /* ItemsViewController.swift */; };
+		6699BAAE1F020DF300BCCAE9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699BAAD1F020DF300BCCAE9 /* Item.swift */; };
+		6699BAB01F0212AC00BCCAE9 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6699BAAF1F0212AC00BCCAE9 /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		661289F51F148DF20066F465 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		661289F71F15DDC10066F465 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		661289F91F1738F10066F465 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		661289FB1F187A8B0066F465 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		661289FD1F19CC010066F465 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		6699BA7A1F020B6100BCCAE9 /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6699BA7D1F020B6100BCCAE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6699BA7F1F020B6100BCCAE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6699BA821F020B6100BCCAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6699BA841F020B6100BCCAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6699BA871F020B6100BCCAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		6699BA991F020B6100BCCAE9 /* HomepwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6699BA9D1F020B6100BCCAE9 /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		6699BA9F1F020B6100BCCAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6699BAAB1F020C4B00BCCAE9 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsViewController.swift; path = ../ItemsViewController.swift; sourceTree = "<group>"; };
+		6699BAAD1F020DF300BCCAE9 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../Item.swift; sourceTree = "<group>"; };
+		6699BAAF1F0212AC00BCCAE9 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				6699BA7D1F020B6100BCCAE9 /* AppDelegate.swift */,
-				6699BA7F1F020B6100BCCAE9 /* ViewController.swift */,
+				6699BAAB1F020C4B00BCCAE9 /* ItemsViewController.swift */,
+				661289F51F148DF20066F465 /* ItemCell.swift */,
+				6699BAAD1F020DF300BCCAE9 /* Item.swift */,
+				6699BAAF1F0212AC00BCCAE9 /* ItemStore.swift */,
+				661289F71F15DDC10066F465 /* DetailViewController.swift */,
+				661289FD1F19CC010066F465 /* ImageStore.swift */,
+				661289F91F1738F10066F465 /* CustomTextField.swift */,
+				661289FB1F187A8B0066F465 /* DatePickerViewController.swift */,
 				6699BA811F020B6100BCCAE9 /* Main.storyboard */,
 				6699BA841F020B6100BCCAE9 /* Assets.xcassets */,
 				6699BA861F020B6100BCCAE9 /* LaunchScreen.storyboard */,
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6699BA801F020B6100BCCAE9 /* ViewController.swift in Sources */,
+				661289FA1F1738F10066F465 /* CustomTextField.swift in Sources */,
+				6699BAAC1F020C4B00BCCAE9 /* ItemsViewController.swift in Sources */,
+				6699BAAE1F020DF300BCCAE9 /* Item.swift in Sources */,
+				6699BAB01F0212AC00BCCAE9 /* ItemStore.swift in Sources */,
+				661289FC1F187A8B0066F465 /* DatePickerViewController.swift in Sources */,
+				661289FE1F19CC010066F465 /* ImageStore.swift in Sources */,
+				661289F81F15DDC10066F465 /* DetailViewController.swift in Sources */,
 				6699BA7E1F020B6100BCCAE9 /* AppDelegate.swift in Sources */,
+				661289F61F148DF20066F465 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +535,7 @@
 				6699BAA41F020B6100BCCAE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6699BAA51F020B6100BCCAE9 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				6699BAA71F020B6100BCCAE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6699BAA81F020B6100BCCAE9 /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				6699BAAA1F020B6100BCCAE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
